@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run: pip install awscli
-      - run: python -m pip install black
+      - run: python3 -m pip install black
 
 workflows:
   version: 2
